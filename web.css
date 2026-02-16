@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1 style="color:white;">
-<p style="color:white;">
-
-</body>
-</html>
+ .text-wrap {
+        white-space: normal;
+        width: 800px;
+        border: 5px white;
+    }
+body {background-color: black;
+  width:800px; margin:auto;}
+h1 {  color: white;}
+p {  color: white;}
