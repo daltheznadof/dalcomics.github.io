@@ -13,7 +13,7 @@ body {background-color: black;
  p {color: white; font-family:Tahoma, Geneva}
 /* if Tahoma font not found, use Geneva */
  img {max-width:100%; height:auto}
- header {font-family:Arial, sans-serif}
+ header {color: white;font-family:Arial, sans-serif}
 #wrapper {border: 1px #808080 solid}
 #social {background-color: #808080}
 .important {background-color:#c00}
