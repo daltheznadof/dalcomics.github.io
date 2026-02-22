@@ -1,5 +1,5 @@
 body {background-color: grey;
-  width:800px; margin:auto;}
+  width:800px; margin:auto;body style="background-image:url(images/bg.jpg);}
 h1 {color: white; font-family:Arial, sans-serif}
 h2 {color: white; font-family:Arial, sans-serif}
 h3  {color: white; font-family:Arial, sans-serif}
@@ -7,4 +7,3 @@ ul  {color: white; font-family:Arial, sans-serif}
 p {color: white; font-family:Tahoma, Geneva}
 img {max-width:100%; height:auto}
 header {color: white;font-family:Arial, sans-serif}
-<body style="background-image:url(images/bg.jpg)"
