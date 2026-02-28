@@ -2,14 +2,13 @@
 
 
 body {background-color: grey; margin:auto; max-width:1100px; padding:20px; font-size:1.2em}
-h1 {color: white; font-family:Arial, sans-serif}
-h2 {color: white; font-family:Arial, sans-serif}
-h3  {color: white; font-family:Arial, sans-serif}
-ul  {color: white; font-family:Arial, sans-serif}
-p {color: white; font-family:Tahoma, Geneva}
-img {max-width:100%; height:auto}
-header {color: white;font-family:Arial, sans-serif}
-body } /* the max is important */
+h1 {color: white; font-family:Arial, sans-serif;text-align:center}
+h2 {color: white; font-family:Arial, sans-serif;text-align:center}
+h3  {color: white; font-family:Arial, sans-serif;text-align:center}
+ul  {color: white; font-family:Arial, sans-serif;text-align:center}
+p {color: white; font-family:Tahoma, Geneva;text-align:center}
+img {max-width:100%; height:auto;text-align:center}
+header {color: white;font-family:Arial, sans-serif;text-align:center}
 img {max-width:100%; height:auto;}
 section {text-align:center}
 figure {display:inline-block; width:240px; text-align:center; margin:5px;}
