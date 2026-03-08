@@ -8,11 +8,11 @@ h3  {color: white; font-family:Arial, sans-serif;text-align:center}
 ul  {color: white; font-family:Arial, sans-serif;text-align:center}
 p {color: white; font-family:Tahoma, Geneva;text-align:center}
 img {max-width:100%; height:auto;text-align:center}
-header {color: white;font-family:Arial, sans-serif;text-align:center}
+header {color: white;font-family:Arial, sans-serif;text-align:center;background-image:url('images/Banner.jpg');
+  padding-top:25%; background-size:cover;}
 img {max-width:100%; height:auto;}
 section {text-align:center}
 figure {display:inline-block; width:240px; text-align:center; margin:5px;}
-
 nav {width:100%; text-align:center}
 nav a {display:block; width:30%;
 text-decoration:none;}
