@@ -13,6 +13,11 @@ header {color: white;font-family:Arial, sans-serif;text-align:center;background-
 blockquote {text-align:justify}
 blockquote:first-letter {font-size:1.8em; font-weight:bold; font-family:Tahoma, Geneva;}
 .box {border:3px white solid}
+.infobar {color: #FFF;
+  background-color: grey;
+  margin-left: 6px;
+  font-size: x-large;}
+
 
 img {max-width:100%; height:auto;}
 section {text-align:center}
