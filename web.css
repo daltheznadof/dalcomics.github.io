@@ -12,7 +12,7 @@ header {color: white;font-family:Arial, sans-serif;text-align:center;background-
   padding-top:25%; background-size:cover;}
 blockquote {text-align:justify}
 blockquote:first-letter {font-size:1.8em; font-weight:bold}
-.box {border:2px white solid}
+.box {border:5px white solid}
 
 img {max-width:100%; height:auto;}
 section {text-align:center}
