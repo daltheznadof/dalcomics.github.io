@@ -12,7 +12,7 @@
     
 if(isset($_POST['Email'])) {
     // CHANGE THE TWO LINES BELOW
-    $email_to = "yourName@yourDomainName.com";
+    $email_to = "daltheznadof@gmail.com";
     $email_subject = "Demo online form submission";
        
     function died($error) {
@@ -30,9 +30,7 @@ if(isset($_POST['Email'])) {
     // SECTION A - assign variables to fields Posted from form      
     $FirstName = $_POST['FirstName']; // required. (Note in Php - variables start with a $)
     $LastName = $_POST['LastName']; // required
-    $Gender = $_POST['Gender']; // NOT required	
     $email_from = $_POST['Email']; // required
-    $Telephone = $_POST['Telephone']; // NOT required
     $Comments = $_POST['Comments']; // required
 
     $email_message = "Form details for yourName@yourDomainName.com below:\n\n"; // the /n simply means New line
@@ -45,9 +43,7 @@ if(isset($_POST['Email'])) {
     // SECTION B - prepare email based on variables assigned to fields Posted from form       
     $email_message .= "First Name: ".clean_string($FirstName)."\n";
     $email_message .= "Last Name: ".clean_string($LastName)."\n";
-    $email_message .= "Gender: ".clean_string($Gender)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Telephone: ".clean_string($Telephone)."\n";
     $email_message .= "Comments: ".clean_string($Comments)."\n";
 	
     // *** Tap [Ctrl] + [F5] to Force Hard Reload/Refresh if you modify the PHP code.
