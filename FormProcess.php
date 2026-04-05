@@ -28,8 +28,8 @@ if(isset($_POST['Email'])) {
     // Strings need to be enclosed in quotes, so do not use an apostrophe in a field name.
 	
     // SECTION A - assign variables to fields Posted from form      
-    $FirstName = $_POST['FirstName']; // required. (Note in Php - variables start with a $)
-    $LastName = $_POST['LastName']; // required
+    $FirstName = $_POST['First Name']; // required. (Note in Php - variables start with a $)
+    $LastName = $_POST['Last Name']; // required
     $email_from = $_POST['Email']; // required
     $Comments = $_POST['Comments']; // required
 
